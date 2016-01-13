@@ -1,0 +1,24 @@
+{
+  "name": "Sainsburys Product Scraper",
+  "description": "Sainsbury’s Software Engineering Test",
+  "authors": [
+    {
+      "name": "Sebastian de Kok",
+      "email": "info@sestilo.com"
+    }
+  ],
+  "require": {
+      "guzzlehttp/guzzle": "^6.1",
+      "symfony/css-selector": "^3.0",
+      "symfony/dom-crawler": "^3.0",
+      "symfony/console": "^3.0",
+      "phpunit/phpunit": "^5.1",
+      "mockery/mockery": "^0.9.4"
+  },
+  "autoload": {
+      "psr-4": {
+        "Sainsburys\\": "app/src/",
+        "Sainsburys\\Tests\\": "app/tests/"
+      }
+  }
+}
