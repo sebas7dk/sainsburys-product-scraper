@@ -4,7 +4,7 @@ A console application that scrapes the Sainsbury’s grocery site - Ripe Fruits 
 
 ## Requirements ##
 
-* PHP v5.5 
+* PHP v5.6 
 * Composer
 
 ## Setup ##
