@@ -18,4 +18,4 @@ Run `php console scrape:products` to scrape all the products from the Ripe Fruit
 
 ## Tests ##
 
-Run `vendor/bin/phpunit app/tests/`
+Run `vendor/bin/phpunit app/tests/` 
