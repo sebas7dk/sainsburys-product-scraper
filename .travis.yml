@@ -1,4 +1,7 @@
 language: php
 php:
-- 5.5
-script: phpunit app/tests
+  - 5.5
+install:
+  - composer install
+script:
+  - phpunit app/tests
